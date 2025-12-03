@@ -44,7 +44,7 @@ async function handleFunction() {
       return new Promise((resolve) => {
         const add = num4 + 10;
         setTimeout(() => {
-          output.textContent = `Result: ${add}`;
+          output.textContent = `Final Result: ${add}`;
           resolve(add);
         }, 1000);
       });
